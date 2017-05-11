@@ -76,7 +76,7 @@ namespace SearchAThing.Sci
                 module = wb.VBProject.VBComponents.Add(Microsoft.Vbe.Interop.vbext_ComponentType.vbext_ct_StdModule);
                 module.Name = module_name;
                 var ass = Assembly.GetExecutingAssembly();
-                var vba_code = ass.GetResourceTextFile("SearchAThing.Sci.excel_interop_automatic_calc.vba");
+                var vba_code = ass.GetResourceTextFile("SearchAThing.Sci.Excel.excel_interop_automatic_calc.vba");
                 module.CodeModule.AddFromString(vba_code);
             }            
 
