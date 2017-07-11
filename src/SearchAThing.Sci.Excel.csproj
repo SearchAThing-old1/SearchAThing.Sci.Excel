@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SearchAThing.Sci.Excel</RootNamespace>
     <AssemblyName>SearchAThing.Sci.Excel</AssemblyName>
-    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -54,12 +54,9 @@
     <PackageReference Include="Microsoft.Office.Interop.Excel">
       <Version>15.0.4795.1000</Version>
     </PackageReference>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\SearchAThing.Core\src\SearchAThing.Core.csproj">
-      <Project>{8162a30e-a46d-4a78-ba12-1f376ac6f1b4}</Project>
-      <Name>SearchAThing.Core</Name>
-    </ProjectReference>
+    <PackageReference Include="SearchAThing.Core">
+      <Version>1.0.0-CI00014</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

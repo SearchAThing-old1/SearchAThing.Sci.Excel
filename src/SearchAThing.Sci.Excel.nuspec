@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package 
+xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+    <metadata>    
+		<id>SearchAThing.Sci.Excel</id>
+		
+		<version>1.0.0</version>
+		
+		<authors>Lorenzo Delana</authors>
+		
+		<owners>Lorenzo Delana</owners>
+		
+		<licenseUrl>https://github.com/devel0/SearchAThing.Sci.Excel/blob/master/LICENSE.md</licenseUrl>
+		<projectUrl>https://github.com/devel0/SearchAThing.Sci.Excel</projectUrl>    
+		
+		<iconUrl>http://github.com/contoso/UsefulStuff/nuget_icon.png</iconUrl>
+		
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		
+		<releaseNotes>Initial myget package</releaseNotes>
+
+		<description>automate excel interop calc</description>
+		
+		<copyright>Copyright ©2017 Lorenzo Delana</copyright>
+		
+		<tags>c# excel vba automation</tags>		
+    </metadata>
+    	
+		<!--
+    <files>
+		<file src="bin/Release/SearchAThing.Core.dll" target="lib/net46" />
+		<file src="bin/Release/SearchAThing.Core.xml" target="lib/net46" />
+    </files>-->
+</package>
