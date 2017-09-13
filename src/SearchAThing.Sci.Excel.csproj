@@ -58,7 +58,7 @@
       <Version>15.0.4795.1000</Version>
     </PackageReference>
     <PackageReference Include="SearchAThing.Core">
-      <Version>1.0.0-CI00023</Version>
+      <Version>1.0.0-CI00002</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
